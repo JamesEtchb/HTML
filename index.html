@@ -3,19 +3,55 @@
 <html></html>
   <head>
     <title>my first html</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-      h1 {
+      /* h1 {
         color: orange;
         font-size: 11vw;
       }
+      h2 {
+        color: white;
+        background-color: purple;
+        font-size: 11vw;
+      }
+      header > h1 {
+        color: purple;
+        font-size: 11vw;
+      }
+      #thisOne {
+        background-color: blue;
+        text-shadow: 4px 4px black;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .thatType {
+        background-color: darkblue;
+      }
+      .whiteText {
+        color: whitesmoke;
+      }
+      .custom-box{
+        width: 300;
+        padding: 15px 5px 5px 15px;
+        border-bottom: 10px solid maroon;
+        border-top: 10px solid maroon;
+        border-left: 5px solid brown;
+        border-right: 5px solid brown;
+        border-radius: 100px 10px 50px 0px;
+        margin: 10px;
+        box-shadow: 20px 15px 8px grey;
+    } */
     </style>
   </head>
   <body>
 
-    <header style="font-size: 5em; color:salmon;">Mango party</header>
+    <header style="font-size: 5em; background-color: red;">
+      Mango party
+    </header>
     <br>
-    <img src="https://i.pinimg.com/originals/1b/8f/fa/1b8ffa8be742e08bacbf36b7f05463f4.gif"
+    <img class="custom-box" src="https://i.pinimg.com/originals/1b/8f/fa/1b8ffa8be742e08bacbf36b7f05463f4.gif"
     width = 300>
+    <br>
+    <br>
     <br>
     <a href="/students.html"> students</a>
     <br>
@@ -38,8 +74,8 @@
       <button>button</button>
     </form>
     <!--this is a comment-->
-    <h1>This is a header more stuff and this will eventually wrap</h1>
-    <h2>OMG this is smaller</h2>
+    <h1 id="thisOne">This is a header more stuff and this will eventually wrap</h1>
+    <h2 class="thatType whiteText">This is smaller</h2>
     <h6>the smallest header</h6>
     <p>this is a paragraph
         and even more stuff
